@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:krillin",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["player", "humanoid", "dragonball_character", "human"]},
+      "minecraft:collision_box": {"width": 0.5, "height": 1.6},
+      "minecraft:health": {"value": 70, "max": 70},
+      "minecraft:attack": {"damage": 6},
+      "minecraft:physics": {},
+      "minecraft:nameable": {}
+    }
+  }

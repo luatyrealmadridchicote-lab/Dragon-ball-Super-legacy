@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:king_kai",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["npc", "dragonball_npc", "deity"]},
+      "minecraft:collision_box": {"width": 0.4, "height": 1.2},
+      "minecraft:health": {"value": 60, "max": 60},
+      "minecraft:physics": {},
+      "minecraft:nameable": {"allow_name_tag_renaming": true}
+    }
+  }

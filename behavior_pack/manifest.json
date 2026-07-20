@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Dragon Ball Super Legacy - Complete Addon for Minecraft Education Edition",
+    "name": "Dragon Ball Super Legacy Behavior Pack",
+    "uuid": "12345678-1234-5678-1234-567812345678",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack Module",
+      "type": "data",
+      "uuid": "87654321-4321-8765-4321-876543218765",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0ee6fb3d-62f9-404a-a6cc-b5a9f83df978",
+      "version": [1, 0, 0]
+    }
+  ]
+}

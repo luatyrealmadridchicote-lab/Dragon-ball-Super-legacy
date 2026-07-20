@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:frieza",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "final_form": {
+        "minecraft:variant": {"value": 1},
+        "minecraft:color": {"value": 6}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["monster", "dragonball_boss", "villain"]},
+      "minecraft:collision_box": {"width": 0.8, "height": 2.0},
+      "minecraft:health": {"value": 250, "max": 250},
+      "minecraft:attack": {"damage": 15},
+      "minecraft:physics": {},
+      "minecraft:nameable": {"allow_name_tag_renaming": true},
+      "minecraft:variant": {"value": 0},
+      "minecraft:color": {"value": 6},
+      "minecraft:loot": {"table": "loot_tables/boss_drops"}
+    },
+    "events": {
+      "boss_final_form": {"add": {"component_groups": ["final_form"]}}
+    }
+  }

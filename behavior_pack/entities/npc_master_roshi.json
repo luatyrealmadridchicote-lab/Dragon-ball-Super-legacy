@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:master_roshi",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["npc", "dragonball_npc", "trainer"]},
+      "minecraft:collision_box": {"width": 0.5, "height": 1.6},
+      "minecraft:health": {"value": 50, "max": 50},
+      "minecraft:physics": {},
+      "minecraft:nameable": {"allow_name_tag_renaming": true},
+      "minecraft:loot": {"table": "loot_tables/npc_rewards"}
+    }
+  }

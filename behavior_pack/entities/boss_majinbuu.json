@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:majinbuu",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["monster", "dragonball_boss", "demon"]},
+      "minecraft:collision_box": {"width": 1.0, "height": 2.2},
+      "minecraft:health": {"value": 350, "max": 350},
+      "minecraft:attack": {"damage": 20},
+      "minecraft:physics": {},
+      "minecraft:color": {"value": 10},
+      "minecraft:loot": {"table": "loot_tables/boss_drops"}
+    }
+  }

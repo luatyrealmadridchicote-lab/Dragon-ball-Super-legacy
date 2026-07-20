@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:bulma",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["npc", "dragonball_npc", "tech_support"]},
+      "minecraft:collision_box": {"width": 0.5, "height": 1.7},
+      "minecraft:health": {"value": 40, "max": 40},
+      "minecraft:physics": {},
+      "minecraft:nameable": {"allow_name_tag_renaming": true}
+    }
+  }

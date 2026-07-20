@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "dragonball:raditz",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {"family": ["monster", "dragonball_boss", "saiyan"]},
+      "minecraft:collision_box": {"width": 0.7, "height": 1.9},
+      "minecraft:health": {"value": 150, "max": 150},
+      "minecraft:attack": {"damage": 12},
+      "minecraft:physics": {},
+      "minecraft:nameable": {"allow_name_tag_renaming": true},
+      "minecraft:loot": {"table": "loot_tables/boss_drops"}
+    }
+  }
